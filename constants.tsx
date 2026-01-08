@@ -20,7 +20,7 @@ export const SOCIAL_STATS = {
 
 export const MANIFESTO = {
   title: "Le Manifeste de l'Âme",
-  text: "J'écris depuis mon plus jeune âge et la spiritualité infuse chaque instant de ma vie. À travers mon propre chemin de guérison et mon expérience, j'accompagne les âmes vers leur libération. Les vieilles âmes cherchent aujourd'hui à se reconnecter à leurs sagesses ancestrales et divines ; j'en sème les graines et laisse chacun libre, selon sa compréhension du moment, de les arroser ou non."
+  text: "J'écris depuis mon plus jeune âge et la spiritualité infuse chaque instant de ma vie. À travers mon plus jeune âge et mon expérience, j'accompagne les âmes vers leur libération. Les vieilles âmes cherchent aujourd'hui à se reconnecter à leurs sagesses ancestrales et divines ; j'en sème les graines et laisse chacun libre, selon sa compréhension du moment, de les arroser ou non."
 };
 
 export const VIBRATIONAL_QUOTES = [
@@ -105,7 +105,7 @@ export const MY_STORY = {
     {
       id: "prophetie",
       title: "La Prophétie du Médium",
-      content: "Un jour, chez un patient médium, il me dit : 'Je te vois soigner les gens, tu fais partie de la famille des guérisseurs et l'archange Raphaël se tient au-dessus de toi.' Il avait ouvert le livre de ma vie au moment où celle-ci devait changer de chapitre. L'heure avait sonné. Un bracelet d'émeraudes portant l'initiale 'M' m'a confirmé ce chemin.",
+      content: "Un jour, chez un patient médium, il me dit : 'Je te vois soigner les gens, tu fais partie de la famille des guérisseurs et l'archange Raphaël se tient au-dessus de toi.' Il avait ouvert le livre de ma vie au moment où celle-ci devait changer de chapitre. L'heure avait sonnel. Un bracelet d'émeraudes portant l'initiale 'M' m'a confirmé ce chemin.",
       image: "https://raw.githubusercontent.com/poesiedivine78/Cosmic-Angel-Reiki-/main/images/le%20M%20bracelet.jpg",
       tag: "La Destinée"
     },
@@ -145,7 +145,7 @@ export const FAQ_DATA = {
       a: "Je canalise l'énergie vitale universelle à travers mes mains, placées doucement sur ou au-dessus de votre corps pour lever les blocages."
     },
     {
-      q: "Le Reiki fonctionne-t-it vraiment à distance ?",
+      q: "Le Reiki fonctionne-t-il vraiment à distance ?",
       a: "Absolument. En tant que Maître Praticien, je travaille sur le plan fréquentiel où le temps et l'espace n'existent pas."
     }
   ]
@@ -159,8 +159,8 @@ export const CHAKRAS = [
     meaning: "Sagesse & Paix", 
     pos: "top-[5%]", 
     id: "crown",
-    blocked: "Déconnexion, cynisme, séparation",
-    open: "Sagesse, paix intérieure, éveil spirituel"
+    blocked: "Déconnexion, cynisme, sensation de séparation d'avec la Source.",
+    open: "Sagesse profonde, paix intérieure absolue, éveil spirituel conscient."
   },
   { 
     name: "3E OEIL", 
@@ -169,8 +169,8 @@ export const CHAKRAS = [
     meaning: "Intuition & Vision", 
     pos: "top-[18%]", 
     id: "third-eye",
-    blocked: "Manque de clarté et de concentration",
-    open: "Intuition forte, imagination vive, clarté mentale"
+    blocked: "Manque de clarté, confusion mentale, difficulté à se projeter.",
+    open: "Intuition décuplée, imagination vive, clarté mentale et vision juste."
   },
   { 
     name: "GORGE", 
@@ -179,8 +179,8 @@ export const CHAKRAS = [
     meaning: "Expression & Vérité", 
     pos: "top-[32%]", 
     id: "throat",
-    blocked: "Incompris, difficulté à s'exprimer",
-    open: "Sentiment d'être écouté, expression"
+    blocked: "Difficulté à s'exprimer, sentiment d'être incompris, non-dits.",
+    open: "Communication fluide, vérité assumée, capacité à être écouté."
   },
   { 
     name: "COEUR", 
@@ -189,8 +189,8 @@ export const CHAKRAS = [
     meaning: "Amour & Harmonie", 
     pos: "top-[46%]", 
     id: "heart",
-    blocked: "Ressentiment, jalousie, difficulté à aimer",
-    open: "Relations harmonieuses, capacité à donner"
+    blocked: "Ressentiment, jalousie, difficulté à aimer ou à recevoir l'amour.",
+    open: "Relations harmonieuses, compassion infinie, capacité à donner sans peur."
   },
   { 
     name: "PLEXUS", 
@@ -199,8 +199,8 @@ export const CHAKRAS = [
     meaning: "Confiance & Volonté", 
     pos: "top-[59%]", 
     id: "solar",
-    blocked: "Manque de confiance, impuissance",
-    open: "Estime de soi, sens de la volonté"
+    blocked: "Manque de confiance, sentiment d'impuissance, peur du jugement.",
+    open: "Estime de soi rayonnante, volonté forte, sens de son pouvoir personnel."
   },
   { 
     name: "SACRÉ", 
@@ -209,8 +209,8 @@ export const CHAKRAS = [
     meaning: "Créativité & Désir", 
     pos: "top-[73%]", 
     id: "sacral",
-    blocked: "Culpabilité, insécurité, manque de désir",
-    open: "Flux créatif, acceptation, expressif"
+    blocked: "Culpabilité, blocages créatifs, manque de désir de vivre.",
+    open: "Flux créatif libéré, acceptation de ses émotions, joie expressive."
   },
   { 
     name: "RACINE", 
@@ -219,10 +219,91 @@ export const CHAKRAS = [
     meaning: "Ancrage & Stabilité", 
     pos: "top-[87%]", 
     id: "root-chakra",
-    blocked: "Instabilité, anxiété, peur excessive",
-    open: "Sentiment de stabilité, sens de l'ancrage"
+    blocked: "Instabilité, anxiété profonde, peurs existentielles.",
+    open: "Sentiment de sécurité, ancrage puissant à la Terre, stabilité vitale."
   }
 ];
+
+export const PATHOLOGIES = {
+  physique: [
+    {
+      title: "Douleurs Chroniques",
+      icon: "Activity",
+      details: {
+        origin: "Blocage de l'énergie vitale dans les tissus physiques.",
+        benefits: ["Soulagement des tensions", "Régénération cellulaire", "Diminution de l'inflammation"]
+      }
+    },
+    {
+      title: "Sommeil & Fatigue",
+      icon: "Moon",
+      details: {
+        origin: "Déséquilibre du cycle circadien et surcharge nerveuse.",
+        benefits: ["Sommeil réparateur", "Vitalité retrouvée", "Apaisement du système nerveux"]
+      }
+    },
+    {
+      title: "Récupération",
+      icon: "Zap",
+      details: {
+        origin: "Baisse du taux vibratoire après une épreuve physique.",
+        benefits: ["Accélération de la guérison", "Soutien immunitaire", "Énergie renouvelée"]
+      }
+    }
+  ],
+  psychique: [
+    {
+      title: "Anxiété & Stress",
+      icon: "Brain",
+      details: {
+        origin: "Surcharge mentale et déconnexion de l'instant présent.",
+        benefits: ["Clarté mentale", "Paix intérieure", "Libération des peurs"]
+      }
+    },
+    {
+      title: "Blessures de l'Âme",
+      icon: "Heart",
+      details: {
+        origin: "Mémoires émotionnelles non transmutées (rejet, abandon).",
+        benefits: ["Guérison du coeur", "Pardon à soi-même", "Équilibre émotionnel"]
+      }
+    },
+    {
+      title: "Charge Mentale",
+      icon: "Shield",
+      details: {
+        origin: "Hypersensibilité mal gérée et manque de protection.",
+        benefits: ["Renforcement de l'aura", "Limites saines", "Calme cognitif"]
+      }
+    }
+  ],
+  spirituel: [
+    {
+      title: "Perte de Sens",
+      icon: "Compass",
+      details: {
+        origin: "Déconnexion de sa mission de vie et de la Source.",
+        benefits: ["Alignement spirituel", "Clarté de mission", "Sentiment d'unité"]
+      }
+    },
+    {
+      title: "Blocages Karmiques",
+      icon: "History",
+      details: {
+        origin: "Résidus énergétiques de vies antérieures ou lignées.",
+        benefits: ["Libération karmique", "Nettoyage ancestral", "Fluidité retrouvée"]
+      }
+    },
+    {
+      title: "Éveil Starseed",
+      icon: "Stars",
+      details: {
+        origin: "Difficulté d'incarnation et nostalgie d'ailleurs.",
+        benefits: ["Ancrage terrestre", "Activation d'ADN", "Reconnexion stellaire"]
+      }
+    }
+  ]
+};
 
 export const BOOKS = [
   {
@@ -247,7 +328,7 @@ export const TESTIMONIALS = [
   {
     author: "Sophie M.",
     role: "Éveil de Conscience",
-    text: "Le Protocole Phoenix au littéralement transmuté mes blocages. Michael a cette capacité rare de voir l'invisible et de le guérir avec une douceur infinie.",
+    text: "Le Protocole Phoenix a littéralement transmuté mes blocages. Michael a cette capacité rare de voir l'invisible et de le guérir avec une douceur infinie.",
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150"
   },
   {
@@ -264,80 +345,6 @@ export const TESTIMONIALS = [
   }
 ];
 
-export interface HealingPathology {
-  title: string;
-  reiki: "Usui" | "Kundalini";
-  desc: string;
-  icon: string;
-  impact: {
-    physical: number;
-    emotional: number;
-    spiritual: number;
-  };
-  details: {
-    origin: string;
-    benefits: string[];
-    recommendation: string;
-  };
-}
-
-export const PATHOLOGIES: Record<string, HealingPathology[]> = {
-  physique: [
-    { 
-      title: "Douleurs Chroniques", 
-      reiki: "Usui", 
-      desc: "Soulagement des tensions cristallisées dans le corps.", 
-      icon: "Activity",
-      impact: { physical: 90, emotional: 40, spiritual: 20 },
-      details: {
-        origin: "Énergie stagnante suite à un traumatisme non résolu ou une posture émotionnelle rigide.",
-        benefits: ["Relâchement myofascial", "Diminution de l'inflammation", "Réparation cellulaire accélérée"],
-        recommendation: "3 à 5 séances pour un déracinement durable."
-      }
-    },
-    { 
-      title: "Fatigue & Burn-out", 
-      reiki: "Kundalini", 
-      desc: "Recharge vitale pour les systèmes épuisés.", 
-      icon: "Zap",
-      impact: { physical: 85, emotional: 75, spiritual: 50 },
-      details: {
-        origin: "Fuite énergétique majeure au niveau du plexus solaire et épuisement des surrénales.",
-        benefits: ["Restauration du Prana", "Clarté mentale retrouvée", "Motivation profonde"],
-        recommendation: "Accompagnement de 4 séances (Protocole Phoenix conseillé)."
-      }
-    }
-  ],
-  psychique: [
-    { 
-      title: "Anxiété & Peurs", 
-      reiki: "Usui", 
-      desc: "Sécurisation émotionnelle et retour au présent.", 
-      icon: "Brain",
-      impact: { physical: 50, emotional: 95, spiritual: 40 },
-      details: {
-        origin: "Fragilité de l'aura laissant filtrer les énergies environnantes négatives.",
-        benefits: ["Bulle de protection énergétique", "Confiance en soi", "Sérénité face à l'imprévu"],
-        recommendation: "3 séances espacées de 15 jours."
-      }
-    }
-  ],
-  spirituel: [
-    { 
-      title: "Perte de Sens", 
-      reiki: "Usui", 
-      desc: "Réalignement avec votre mission d'âme.", 
-      icon: "Compass",
-      impact: { physical: 10, emotional: 60, spiritual: 100 },
-      details: {
-        origin: "Déconnexion du Moi Supérieur et oubli des codes stellaires originels.",
-        benefits: ["Intuition décuplée", "Synchronicités accrues", "Vision claire de son chemin"],
-        recommendation: "1 séance de reconnexion profonde."
-      }
-    }
-  ]
-};
-
 export const SERVICES = [
   {
     title: "Soin Reiki Usui",
@@ -347,11 +354,20 @@ export const SERVICES = [
     color: "#3B82F6",
     subtitle: "Régénération & Paix",
     description: "Le soin traditionnel Usui est une parenthèse de sérénité absolue. Par l'apposition des mains, je canalise l'énergie universelle pour dissoudre vos tensions, apaiser votre esprit et relancer votre processus naturel de guérison.",
-    url: "https://starseedcosmicangel.setmore.com/michael?step=time-slot&products=fd7f8be7-a4a7-4507-9b11-cbdeed68c3af&type=service&staff=d7dd396c-7970-4670-abc6-9f732e5e3ce1&staffSelected=false",
+    url: "https://starseedcosmicangel.setmore.com/michael?step=time-slot&products=97f02125-0bb9-40aa-86ed-c4b0504716f6&type=service&staff=d7dd396c-7970-4670-abc6-9f732e5e3ce1&staffSelected=false",
     detailedBenefits: {
-      physique: [{ label: "Douleurs", text: "Soulagement immédiat" }, { label: "Sommeil", text: "Repos profond" }],
-      psychique: [{ label: "Stress", text: "Calme mental" }, { label: "Lâcher-prise", text: "Détente globale" }],
-      spirituel: [{ label: "Chakras", text: "Harmonisation" }, { label: "Ancrage", text: "Connexion Terre" }]
+      physique: [
+        { label: "Vitalité", text: "Recharge profonde de vos batteries biologiques et restauration immédiate de votre tonus vital." },
+        { label: "Prana", text: "Circulation fluide et harmonieuse de l'énergie de vie dans tous vos centres nerveux et organiques." }
+      ],
+      psychique: [
+        { label: "Stress", text: "Dissolution instantanée des charges mentales accumulées pour retrouver une clarté d'esprit souveraine." },
+        { label: "Lâcher-prise", text: "Libération des résistances émotionnelles, permettant un retour à la paix intérieure durable." }
+      ],
+      spirituel: [
+        { label: "Chakras", text: "Harmonisation complète de vos centres énergétiques pour une fluidité vitale retrouvée." },
+        { label: "Ancrage", text: "Renforcement de votre connexion terrestre, stabilisant votre structure face aux aléas de la vie." }
+      ]
     }
   },
   {
@@ -361,12 +377,21 @@ export const SERVICES = [
     type: "Kundalini",
     color: "#8B5CF6",
     subtitle: "Puissance & Libération",
-    description: "Plus intense et tellurique, le Reiki Kundalini travaille sur l'éveil de votre force vitale latente. Ce soin est spécifiquement conçu pour débloquer les canaux énergétiques et purifier les chakras.",
-    url: "https://starseedcosmicangel.setmore.com/michael?step=time-slot&products=97f02125-0bb9-40aa-86ed-c4b0504716f6&type=service&staff=d7dd396c-7970-4670-abc6-9f732e5e3ce1&staffSelected=false",
+    description: "Plus intense et tellurique, le Reiki Kundalini travaille sur l'éveil de votre force vitale latente. Ce soin est spécifiquement conçu pour débloquer les canaux énergétiques et purifier les chakras en profondeur.",
+    url: "https://starseedcosmicangel.setmore.com/michael?step=time-slot&products=fd7f8be7-a4a7-4507-9b11-cbdeed68c3af&type=service&staff=d7dd396c-7970-4670-abc6-9f732e5e3ce1&staffSelected=false",
     detailedBenefits: {
-      physique: [{ label: "Vitalité", text: "Recharge" }, { label: "Prana", text: "Circulation" }],
-      psychique: [{ label: "Blocages", text: "Libération" }, { label: "Pouvoir", text: "Confiance" }],
-      spirituel: [{ label: "Karmique", text: "Nettoyage" }, { label: "Expansion", text: "Perception" }]
+      physique: [
+        { label: "Vitalité", text: "Recharge massive de vos ressources physiques et activation de la puissance de régénération cellulaire." },
+        { label: "Prana", text: "Circulation tellurique intense, réveillant le feu intérieur pour une énergie de vie décuplée au quotidien." }
+      ],
+      psychique: [
+        { label: "Blocages", text: "Libération radicale des mémoires cristallisées et déprogrammation profonde des schémas limitants." },
+        { label: "Pouvoir", text: "Confiance retrouvée : reconnexion à votre souveraineté et à votre leadership intérieur inébranlable." }
+      ],
+      spirituel: [
+        { label: "Karmique", text: "Nettoyage en profondeur des dettes d'âme et des poids ancestraux pour un alignement sur votre mission de vie." },
+        { label: "Expansion", text: "Perception accrue des mondes subtils et ouverture du canal intuitif pour une vision spirituelle claire." }
+      ]
     }
   }
 ];
@@ -385,25 +410,56 @@ export const PROGRAMS = [
       { label: "Précision", text: "Bilan complet avant/après" }
     ],
     path: [
-      { step: "Ancrage", desc: "Stabilisation du système nerveux.", icon: "Shield", duration: "Semaine 1" },
-      { step: "Le Brûlis", desc: "Activation Kundalini ciblée.", icon: "Zap", duration: "Semaine 2" },
-      { step: "Transmutation", desc: "Nettoyage karmique profond.", icon: "History", duration: "Semaine 3" },
-      { step: "Ascension", desc: "Stabilisation haute fréquence.", icon: "Stars", duration: "Semaine 4" }
+      { 
+        step: "Ancrage", 
+        desc: "Stabilisation du système nerveux.", 
+        icon: "Shield", 
+        duration: "Semaine 1",
+        detailedPlan: [
+          "Bilan énergétique complet et identification des fuites.",
+          "Nettoyage des corps subtils et colmatage des brèches.",
+          "Séance d'ancrage profond pour sécuriser l'incarnation.",
+          "Mise en place d'un bouclier de protection quotidien."
+        ]
+      },
+      { 
+        step: "Le Brûlis", 
+        desc: "Activation Kundalini ciblée.", 
+        icon: "Zap", 
+        duration: "Semaine 2",
+        detailedPlan: [
+          "Activation douce du canal Sushumna.",
+          "Transmutation des énergies stagnantes par le feu sacré.",
+          "Nettoyage du plexus solaire et libération du 'Je peux'.",
+          "Harmonisation de la montée d'énergie vitale."
+        ]
+      },
+      { 
+        step: "Transmutation", 
+        desc: "Nettoyage karmique profond.", 
+        icon: "History", 
+        duration: "Semaine 3",
+        detailedPlan: [
+          "Voyage dans les mémoires cellulaires et karmiques.",
+          "Coupure des liens de dépendance et des contrats obsolètes.",
+          "Récupération des morceaux d'âme fragmentés.",
+          "Pardon vibratoire et libération des lignées."
+        ]
+      },
+      { 
+        step: "Ascension", 
+        desc: "Stabilisation haute fréquence.", 
+        icon: "Stars", 
+        duration: "Semaine 4",
+        detailedPlan: [
+          "Alignement sur la fréquence du Moi Supérieur.",
+          "Activation des codes stellaires et de l'ADN latent.",
+          "Harmonisation finale des 7 chakras majeurs.",
+          "Rituel de clôture et ancrage de la nouvelle identité."
+        ]
+      }
     ],
     price: "240€",
     saving: "Économie de 50€"
-  }
-];
-
-export const BIO_STORY = [
-  {
-    phase: "L'AUTEUR",
-    title: "Poésie Divine",
-    text: "L'écriture est pour moi une forme de canalisation. Mes recueils sont conçus pour infuser la lumière dans votre cœur."
-  },
-  {
-    phase: "LE GUIDE",
-    title: "21k Âmes Guidées",
-    text: "Accompagner ma communauté est ma mission. Chaque partage est une graine d'éveil semée dans le champ collectif."
   }
 ];
